@@ -1,25 +1,25 @@
-body {
-    font-family: sans-serif;
-    background-color: lightgrey;
-    margin-top: 75px;
+.profile_image { 
+  border: 3px solid rgba(0, 0, 0, 0.3);
+  width:12%;
+  height: 25%;
+  align: center;
+  text-align:center;
+  margin:auto;
 }
 
-.center {
-    text-align: center;
-}
-
-.text-big {
-    font-size: 300%;
-}
-
-.bold {
-    font-weight: bold;
-}
-
-.img-medium {
-    height: 200px;
-}
-
-.main_para {
+.navigation li {
+  margin: 10px;
   text-align: center;
+  border-style: solid;
+  border: solid 1px black;
+  display: inline-block;
+  float: center;
+  height: inherit;
+  line-height: inherit;
+  list-style-type: none;
+  vertical-align: middle;
+}
+
+.overall {
+ text-align: center;
 }
