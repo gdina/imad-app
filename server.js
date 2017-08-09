@@ -38,7 +38,9 @@ function createTemplate (data) {
     var htmlTemplate = `
 <html>
     <head>
+        <title>
         ${title}
+        </title>
     </head>
     <body>
         <div class=overall>
