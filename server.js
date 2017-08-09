@@ -13,6 +13,7 @@ var pages =
         content: `
         <p>
             Bachelor of Science (Physics) 
+            
             Post Graduate Diploma in Computer Applications, Algappa university
         </p>
         `
