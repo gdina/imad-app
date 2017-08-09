@@ -12,9 +12,10 @@ var pages =
         heading: 'QUALIFICATION',
         content: `
         <p>
-            Bachelor of Science (Physics) 
-            
-            Post Graduate Diploma in Computer Applications, Algappa university
+        <ul>
+            <li> Bachelor of Science (Physics) </li>
+            <li> Post Graduate Diploma in Computer Applications, Algappa university </li>
+        </ul>
         </p>
         `
     },
@@ -23,9 +24,11 @@ var pages =
         heading: 'EXPERIENCE',
         content: `
         <p>
-           Senior Manager Database Engineering, Stubhub Inc
-           Database Technologist, Sun Microsystems
-           Systems Executive, Sterling Holiday resorts 
+           <ul>
+               <li> Senior Manager Database Engineering, Stubhub Inc </li>
+               <li> Database Technologist, Sun Microsystems </li>
+               <li> Systems Executive, Sterling Holiday resorts </li>
+            </ul>
         </p>
         `
     }
