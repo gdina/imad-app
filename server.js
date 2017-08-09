@@ -12,7 +12,7 @@ var pages =
         heading: 'QUALIFICATION',
         content: `
         <p>
-            Bachelor of Science (Physics) \n
+            Bachelor of Science (Physics) 
             Post Graduate Diploma in Computer Applications, Algappa university
         </p>
         `
