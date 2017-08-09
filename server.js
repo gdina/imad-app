@@ -11,25 +11,25 @@ var pages =
         title: 'qualification',
         heading: 'QUALIFICATION',
         content: `
-        <div class=navigation>
+        <p>
         <ul>
             <li> Bachelor of Science (Physics) </li>
             <li> Post Graduate Diploma in Computer Applications, Algappa university </li>
         </ul>
-        </div>
+        </p>
         `
     },
     experience:{
         title: 'experience',
         heading: 'EXPERIENCE',
         content: `
-        <div class=navigation>
+        <pn>
            <ul>
                <li> Senior Manager Database Engineering, Stubhub Inc </li>
                <li> Database Technologist, Sun Microsystems </li>
                <li> Systems Executive, Sterling Holiday resorts </li>
             </ul>
-        </div>
+        </p>
         `
     }
 };
