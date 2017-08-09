@@ -23,7 +23,9 @@
  text-align: center;
 }
 
-.main_para {
-    vertical-align: middle;
+.line_items {
+    width:200px;
+    margin:0 auto;
+    text-align:left;
 }
 
