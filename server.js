@@ -54,7 +54,7 @@ function createTemplate (data) {
                 ${heading}
                 </h1>
     
-                <div class=main_para>
+                <div class=navigation>
                     <p>
                     ${content}
                     </p>
