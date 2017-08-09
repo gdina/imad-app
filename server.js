@@ -13,7 +13,7 @@ var pages =
         content: `
         <p>
         <ul>
-            <li> Bachelor of Science (Physics) </li>
+            <li> Bachelor of Science (Physics), University of Madras </li>
             <li> Post Graduate Diploma in Computer Applications, Algappa university </li>
         </ul>
         </p>
