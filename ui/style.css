@@ -24,8 +24,6 @@
 }
 
 .main_para {
-    margin: 10px;
-    text-align: center;
-    float: center;
+    vertical-align: middle;
 }
 
