@@ -11,25 +11,25 @@ var pages =
         title: 'qualification',
         heading: 'QUALIFICATION',
         content: `
-        <p>
+        <div class=navigation>
         <ul>
             <li> Bachelor of Science (Physics) </li>
             <li> Post Graduate Diploma in Computer Applications, Algappa university </li>
         </ul>
-        </p>
+        </div>
         `
     },
     experience:{
         title: 'experience',
         heading: 'EXPERIENCE',
         content: `
-        <p>
+        <div class=navigation>
            <ul>
                <li> Senior Manager Database Engineering, Stubhub Inc </li>
                <li> Database Technologist, Sun Microsystems </li>
                <li> Systems Executive, Sterling Holiday resorts </li>
             </ul>
-        </p>
+        </div>
         `
     }
 };
@@ -54,7 +54,7 @@ function createTemplate (data) {
                 ${heading}
                 </h1>
     
-                <div class=navigation>
+                <div class=main_para>
                     <p>
                     ${content}
                     </p>
