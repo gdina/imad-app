@@ -2,7 +2,7 @@ var lis=document.getElementById('horizontal-list').getElementsByTagName('li');
 
 
     for (var i=0; i<lis.length; i++) {
-        lis[i].addEventListener('click', doStuffd(res), false);
+        lis[i].addEventListener('click', doStuff(res), false);
     }
 
     function doStuff(res) {
