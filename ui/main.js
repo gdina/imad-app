@@ -7,8 +7,14 @@ var lis=document.getElementById('horizontal-list').getElementsByTagName('li');
 
     function doStuff() {
         pageName=this.innerHTML;
-        alert(pageName);
-      //  app.get(this.innerHTML, function (req, res) {
+        //alert(pageName);
+        
+        app.get('/:pageName', function (req, res) {
+    pageName = req.params.pageName;
+  res.send(createTemplate(pages[pageName]));
+});
+
+       // app.get(pageName, function (req, res) {
    // pageName = req.params.pageName;
   //res.send(createTemplate(pages[pageName])); 
 //});
