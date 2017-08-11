@@ -60,8 +60,8 @@ function createTemplate (data) {
                     </p>
                 </div>
             </div>
+                   <a href="/"> Home </a>
         </div>
-        <a href="/"> Home </a>
     </body>
 </html>
     `;
