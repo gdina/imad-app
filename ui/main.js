@@ -7,7 +7,7 @@ var lis=document.getElementById('horizontal-list').getElementsByTagName('li');
 
     function doStuff() {
         pageName=this.innerHTML;
-        alter(pageName);
+        alert(pageName);
       //  app.get(this.innerHTML, function (req, res) {
    // pageName = req.params.pageName;
   //res.send(createTemplate(pages[pageName])); 
