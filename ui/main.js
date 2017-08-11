@@ -2,14 +2,14 @@ var lis=document.getElementById('horizontal-list').getElementsByTagName('li');
 
 
     for (var i=0; i<lis.length; i++) {
-        lis[i].addEventListener('click', doStuff, false);
+        lis[i].addEventListener('click', doStuffd(res), false);
     }
 
-    function doStuff() {
+    function doStuff(res) {
         pageName=this.innerHTML;
         //alert(pageName);
         
-  send(createTemplate(pages[pageName]));
+  res.send(createTemplate(pages[pageName]));
 
       
     }
