@@ -1,12 +1,10 @@
-var element=document.getElementById('horizontal-list').getElementsByTagName('li');
+var lis=document.getElementById('horizontal-list').getElementsByTagName('li');
 
-element.getElementById("parent-list").addEventListener("click",function() {
-        // e.target is our targetted element.
-                    // try doing console.log(e.target.nodeName), it will result LI
-        if(e.target == "qualification") {
-            console.log(e.target.innerHTML + " was clicked");
-        }
-    });
-    
 
-    
+    for (var i=0; i<lis.length; i++) {
+        lis[i].addEventListener('click', doStuff, false);
+    }
+
+    function doStuff() {
+        alert( this.innerHTML );
+    }
