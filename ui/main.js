@@ -6,5 +6,8 @@ var lis=document.getElementById('horizontal-list').getElementsByTagName('li');
     }
 
     function doStuff() {
-        alert( this.innerHTML );
+        app.get(this.innerHTML, function (req, res) {
+    pageName = req.params.pageName;
+  res.send(createTemplate(pages[pageName]));
+});
     }
