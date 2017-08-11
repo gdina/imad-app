@@ -61,6 +61,7 @@ function createTemplate (data) {
                 </div>
             </div>
         </div>
+        <a href="/"> Home </a>
     </body>
 </html>
     `;
