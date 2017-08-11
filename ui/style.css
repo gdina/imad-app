@@ -1,7 +1,6 @@
 .profile_image { 
   border: 3px solid rgba(0, 0, 0, 0.3);
   width:6%;
-  align: center;
   text-align:center;
   margin:auto;
 }
@@ -12,7 +11,6 @@
   border-style: solid;
   border: solid 1px black;
   display: inline-block;
-  float: center;
   height: inherit;
   line-height: inherit;
   list-style-type: none;
