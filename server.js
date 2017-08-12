@@ -4,6 +4,7 @@ var path = require('path');
 
 var app = express();
 app.use(morgan('combined'));
+var counter=0 ;
 
 var pages = 
 {
@@ -90,6 +91,11 @@ app.get('/ui/madi.png', function (req, res) {
 app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
+
+app.get('/ui/counter',function (req, res) { 
+    counter=counter+1 ;
+    res.send(counter);
+})
 
 // Do not change port, otherwise your app won't run on IMAD servers
 // Use 8080 only for local development if you already have apache running on 80
