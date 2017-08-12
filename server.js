@@ -94,7 +94,7 @@ app.get('/ui/main.js', function (req, res) {
 
 app.get('/ui/counter',function (req, res) { 
     counter=counter+1 ;
-    res.send(counter);
+    res.send(counter,toString());
 })
 
 // Do not change port, otherwise your app won't run on IMAD servers
