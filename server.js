@@ -78,11 +78,11 @@ app.get('/', function (req, res) {
 });
 
 var counter = 0;
-
 app.get('/:pageName', function (req, res) {
     pageName = req.params.pageName;
   if ( pageName == 'counters' )
   {
+      counter = counter + 1 ;
      res.send(counter,toString());
      
   }
