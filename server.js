@@ -84,8 +84,8 @@ app.get('/:pageName', function (req, res) {
   if ( pageName == 'counters' )
   {
       counter = counter + 1 ;
-     res.send(counter,toString());
-       //res.sendFile(path.join(__dirname,'ui',qualification.html))
+     // res.send(counter,toString());
+       res.sendFile(path.join(__dirname,'ui','qualification.html'));
   }
      else 
      {
