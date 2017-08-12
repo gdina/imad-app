@@ -85,18 +85,13 @@ app.get('/:pageName', function (req, res) {
   {
       counter = counter + 1 ;
      res.send(counter,toString());
-     
+       //res.sendFile(path.join(__dirname,'ui',qualification.html))
   }
      else 
      {
         res.send(createTemplate(pages[pageName]));
      }
   
-});
-
-app.get('/counters', function (req, res){
-    counter = counter + 1;
-    //res.send(counter,toString());
 });
 
 app.get('/ui/style.css', function (req, res) {
