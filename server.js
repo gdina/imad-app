@@ -77,9 +77,8 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-
-app.get('/:pageName', function (req, res) {
     var counter = 0;
+app.get('/:pageName', function (req, res) {
     pageName = req.params.pageName;
   if ( pageName == 'counters' )
   {
