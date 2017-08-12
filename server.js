@@ -85,7 +85,7 @@ app.get('/:pageName', function (req, res) {
   {
       counter = counter + 1 ;
      // res.send(counter,toString());
-     alert('value in counter is'+counter);
+     alert('value in counter is');
        //res.sendFile(path.join(__dirname,'ui','qualification.html'));
   }
      else 
