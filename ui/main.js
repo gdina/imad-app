@@ -1,4 +1,5 @@
 var button = document.getElementById('click_likes');
+
 var counter = 0 ;
 
 button.onclick = function ( ) {
