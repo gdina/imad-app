@@ -6,4 +6,4 @@ button.onClick = function () {
     var span = document.getElementById('likes');
     span.innerHTML = counter.toString() ;
     
-}
+};
