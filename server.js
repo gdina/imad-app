@@ -79,7 +79,16 @@ app.get('/', function (req, res) {
 
 app.get('/:pageName', function (req, res) {
     pageName = req.params.pageName;
-  res.send(createTemplate(pages[pageName]));
+  if ( pageName == 'counters' )
+  {
+     res.send(counter,toString());
+     
+  }
+     else 
+     {
+        res.send(createTemplate(pages[pageName]));
+     }
+  
 });
 
 app.get('/counters', function (req, res){
